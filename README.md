@@ -31,13 +31,13 @@
 ### macOS, Linux, or Git Bash
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/super-builder/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/nathakrit-neighborsoft/super-builder-opencode/main/install.sh | sh
 ```
 
 ### Windows PowerShell
 
 ```powershell
-irm https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/super-builder/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/nathakrit-neighborsoft/super-builder-opencode/main/install.ps1 | iex
 ```
 
 ## Install Location

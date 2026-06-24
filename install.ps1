@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
-$RepoOwner = "YOUR_GITHUB_USERNAME"
-$RepoName = "super-builder"
+$RepoOwner = "nathakrit-neighborsoft"
+$RepoName = "super-builder-opencode"
 $Ref = if ($env:SUPER_BUILDER_REF) {
   $env:SUPER_BUILDER_REF
 } else {

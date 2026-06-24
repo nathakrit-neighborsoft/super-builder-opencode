@@ -1,8 +1,8 @@
 #!/bin/sh
 set -eu
 
-REPO_OWNER="YOUR_GITHUB_USERNAME"
-REPO_NAME="super-builder"
+REPO_OWNER="nathakrit-neighborsoft"
+REPO_NAME="super-builder-opencode"
 REF="${SUPER_BUILDER_REF:-main}"
 BASE_URL="${SUPER_BUILDER_BASE_URL:-https://raw.githubusercontent.com/$REPO_OWNER/$REPO_NAME}"
 BASE_URL="${BASE_URL%/}"
