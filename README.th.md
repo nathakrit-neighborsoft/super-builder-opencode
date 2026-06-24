@@ -17,16 +17,17 @@
 - ต้องติดตั้ง [OpenCode](https://opencode.ai/)
 - สำหรับ macOS, Linux, หรือ Git Bash ต้องมี `curl` หรือ `wget` ในการรันสคริปต์ติดตั้ง
 - สำหรับ Windows ให้รันสคริปต์ติดตั้งผ่าน PowerShell
-- ต้องมี Skills เหล่านี้ติดตั้งอยู่ใน OpenCode ของคุณ:
-  - `caveman`
-  - `ponytail`
-  - `brainstorming`
-  - `guidelines`
-  - `grill-design`
-  - `create-plan`
-  - `subagent-driven-development`
 
 ## การติดตั้ง
+
+สคริปต์ติดตั้งจะทำการดาวน์โหลด Agent และ Skills ที่จำเป็นเหล่านี้ให้โดยอัตโนมัติ:
+- `caveman`
+- `ponytail`
+- `brainstorming`
+- `guidelines`
+- `grill-design`
+- `create-plan`
+- `subagent-driven-development`
 
 ### macOS, Linux, หรือ Git Bash
 
@@ -47,7 +48,7 @@ irm https://raw.githubusercontent.com/nathakrit-neighborsoft/super-builder-openc
 - macOS, Linux, หรือ Git Bash: `~/.config/opencode`
 - Windows PowerShell: `%APPDATA%\opencode`
 
-OpenCode จะโหลด Agent จากโฟลเดอร์ `agents/` ใน config directory นี้ โดยสคริปต์จะบันทึกไฟล์ Agent ในชื่อ `super-builder.md`
+OpenCode จะโหลด Agent จากโฟลเดอร์ `agents/` และโหลด Skills จากโฟลเดอร์ `skills/` ใน config directory นี้ โดยสคริปต์จะบันทึกไฟล์ Agent ในชื่อ `super-builder.md`
 
 ## การอัปเดต
 

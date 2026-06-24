@@ -17,16 +17,17 @@
 - [OpenCode](https://opencode.ai/) must be installed.
 - On macOS, Linux, or Git Bash, the installer requires either `curl` or `wget`.
 - On Windows, run the installer with PowerShell.
-- The following skills must be installed in your OpenCode environment:
-  - `caveman`
-  - `ponytail`
-  - `brainstorming`
-  - `guidelines`
-  - `grill-design`
-  - `create-plan`
-  - `subagent-driven-development`
 
 ## Installation
+
+The installer will automatically install the agent and the following required skills:
+- `caveman`
+- `ponytail`
+- `brainstorming`
+- `guidelines`
+- `grill-design`
+- `create-plan`
+- `subagent-driven-development`
 
 ### macOS, Linux, or Git Bash
 
@@ -47,7 +48,7 @@ By default, the installer writes files to the global OpenCode config directory f
 - macOS, Linux, or Git Bash: `~/.config/opencode`
 - Windows PowerShell: `%APPDATA%\opencode`
 
-OpenCode loads global agents from `agents/` inside this config directory. The installer will save the agent as `super-builder.md`.
+OpenCode loads global agents from `agents/` and skills from `skills/` inside this config directory. The installer will save the agent as `super-builder.md`.
 
 ## Updating
 

@@ -38,6 +38,20 @@ function Install-AgentFile {
 }
 
 Install-AgentFile -Source "agent.md" -Destination (Join-Path $ConfigDir "agents/super-builder.md")
+Install-AgentFile -Source "skills/caveman/SKILL.md" -Destination (Join-Path $ConfigDir "skills/caveman/SKILL.md")
+Install-AgentFile -Source "skills/ponytail/SKILL.md" -Destination (Join-Path $ConfigDir "skills/ponytail/SKILL.md")
+Install-AgentFile -Source "skills/brainstorming/SKILL.md" -Destination (Join-Path $ConfigDir "skills/brainstorming/SKILL.md")
+Install-AgentFile -Source "skills/guidelines/SKILL.md" -Destination (Join-Path $ConfigDir "skills/guidelines/SKILL.md")
+Install-AgentFile -Source "skills/grill-design/SKILL.md" -Destination (Join-Path $ConfigDir "skills/grill-design/SKILL.md")
+Install-AgentFile -Source "skills/create-plan/SKILL.md" -Destination (Join-Path $ConfigDir "skills/create-plan/SKILL.md")
+Install-AgentFile -Source "skills/subagent-driven-development/SKILL.md" -Destination (Join-Path $ConfigDir "skills/subagent-driven-development/SKILL.md")
 
-Write-Host "Installed super-builder agent into: $ConfigDir"
+Write-Host "Installed super-builder agent and skills into: $ConfigDir"
 Write-Host "- agents/super-builder.md"
+Write-Host "- skills/caveman/SKILL.md"
+Write-Host "- skills/ponytail/SKILL.md"
+Write-Host "- skills/brainstorming/SKILL.md"
+Write-Host "- skills/guidelines/SKILL.md"
+Write-Host "- skills/grill-design/SKILL.md"
+Write-Host "- skills/create-plan/SKILL.md"
+Write-Host "- skills/subagent-driven-development/SKILL.md"

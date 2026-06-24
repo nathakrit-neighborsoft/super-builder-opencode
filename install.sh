@@ -31,6 +31,20 @@ download_file() {
 }
 
 download_file "agent.md" "$CONFIG_DIR/agents/super-builder.md"
+download_file "skills/caveman/SKILL.md" "$CONFIG_DIR/skills/caveman/SKILL.md"
+download_file "skills/ponytail/SKILL.md" "$CONFIG_DIR/skills/ponytail/SKILL.md"
+download_file "skills/brainstorming/SKILL.md" "$CONFIG_DIR/skills/brainstorming/SKILL.md"
+download_file "skills/guidelines/SKILL.md" "$CONFIG_DIR/skills/guidelines/SKILL.md"
+download_file "skills/grill-design/SKILL.md" "$CONFIG_DIR/skills/grill-design/SKILL.md"
+download_file "skills/create-plan/SKILL.md" "$CONFIG_DIR/skills/create-plan/SKILL.md"
+download_file "skills/subagent-driven-development/SKILL.md" "$CONFIG_DIR/skills/subagent-driven-development/SKILL.md"
 
-echo "Installed super-builder agent into: $CONFIG_DIR"
+echo "Installed super-builder agent and skills into: $CONFIG_DIR"
 echo "- agents/super-builder.md"
+echo "- skills/caveman/SKILL.md"
+echo "- skills/ponytail/SKILL.md"
+echo "- skills/brainstorming/SKILL.md"
+echo "- skills/guidelines/SKILL.md"
+echo "- skills/grill-design/SKILL.md"
+echo "- skills/create-plan/SKILL.md"
+echo "- skills/subagent-driven-development/SKILL.md"
